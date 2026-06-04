@@ -17,4 +17,4 @@ def dividi(a, b):
 
 
 def potenza(a, b):
-    return a**b
+    return a**b + 7
