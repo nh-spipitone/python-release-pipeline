@@ -25,3 +25,6 @@ def test_dividi_per_zero():
 
 def test_potenza():
     assert potenza(2, 3) == 8
+
+
+# Test
