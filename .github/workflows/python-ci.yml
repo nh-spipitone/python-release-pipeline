@@ -22,5 +22,11 @@ jobs:
             - name: Installa dipendenze
               run: pip install -r requirements.txt
 
+            - name: Controlla stile codice
+              run: ruff check .
+
             - name: Esegui test
               run: pytest
+
+            - name: Release simbolica
+              run: echo "Test superati. Il progetto può essere rilasciato."
